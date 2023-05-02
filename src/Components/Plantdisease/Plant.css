@@ -1,0 +1,70 @@
+.upload-section {
+    height: 20%;
+    width: 100%;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .upload-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
+  }
+  
+  .left-side {
+    flex: 1;
+    padding-right: 20px;
+  }
+  
+  .upload-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .option {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .drag-area {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .drag-text {
+    font-size: 16px;
+  }
+  
+  #camera-icon {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .right-side {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .image-preview {
+    width: 100%;
+    height: 80%;
+    background-color: #eee;
+    background-image: url('placeholder.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .image-description {
+    font-size: 16px;
+    font-style: italic;
+    margin-top: 10px;
+  }
+  
